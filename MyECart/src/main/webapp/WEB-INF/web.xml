@@ -1,0 +1,53 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  
+  <servlet>
+  	<servlet-name>Register_Servlet</servlet-name>
+  	<display-name>Register_Servlet</display-name>
+  	<description></description>
+  	<servlet-class>com.learn.myEcart.servlets.Register_Servlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>Login_Servlet</servlet-name>
+  	<display-name>Login_Servlet</display-name>
+  	<description></description>
+  	<servlet-class>com.learn.myEcart.servlets.Login_Servlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>Logout_Servlet</servlet-name>
+  	<display-name>Logout_Servlet</display-name>
+  	<description></description>
+  	<servlet-class>com.learn.myEcart.servlets.Logout_Servlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>ProductOperation_Servlet</servlet-name>
+  	<display-name>ProductOperation_Servlet</display-name>
+  	<description></description>
+  	<servlet-class>com.learn.myEcart.servlets.ProductOperation_Servlet</servlet-class>
+  </servlet>
+ 
+  <servlet-mapping>
+  	<servlet-name>Register_Servlet</servlet-name>
+  	<url-pattern>/Register_Servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Login_Servlet</servlet-name>
+  	<url-pattern>/Login_Servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Logout_Servlet</servlet-name>
+  	<url-pattern>/Logout_Servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ProductOperation_Servlet</servlet-name>
+  	<url-pattern>/ProductOperation_Servlet</url-pattern>
+  </servlet-mapping>
+  
+</web-app>

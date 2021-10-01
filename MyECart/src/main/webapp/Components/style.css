@@ -1,0 +1,83 @@
+.blue{
+	background:#2196f3;
+}
+
+.custom-bg{
+	background: #2196f3;
+}
+
+.admin .card{
+	
+	border: 1px solid red;
+}
+
+.admin .card:hover{
+	background: #c6ffff;
+	cursor: pointer;
+}
+
+
+
+.list-group-item.active {
+	background: #2196f3;
+	border-color: #2196f3;
+	}
+	
+.discount-label{
+	font-size: 10px!important;
+	font-style: italic!important;
+}
+
+.product-card:hover{
+	background:#c6ffff;
+	cursor: pointer;
+}
+
+
+/* toast */
+#toast {
+            min-width: 300px;
+            position: fixed;
+            bottom: 30px;
+            left: 50%;
+            margin-left: -120px;
+            background: #333;
+            padding: 15px;
+            color: white;
+            text-align: center;
+            z-index: 1;
+            font-size: 18px;
+            visibility: hidden;
+            box-shadow: 0px 0px 100px #000;
+        }
+
+        #toast.display {
+            visibility: visible;
+            animation: fadeIn 0.5s , fadeOut 0.5s 2.5s;
+        }
+
+        @keyframes fadeIn {
+            
+            from{
+                bottom: 0;
+                opacity: 0;
+            }
+            to{
+                bottom: 30px;
+                opacity: 1;
+            }
+        }
+        @keyframes fadeOut {
+            
+            from{
+                bottom: 30px;
+                opacity: 1;
+            }
+            to{
+                bottom: 0;
+                opacity: 0;
+            }
+        }
+
+
+
