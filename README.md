@@ -1,6 +1,6 @@
 # Shop Around
 
-Shop Around is an E-Commerce website.
+MyECart is an E-Commerce website.
 Here User can buy the available Items in the nearby stores.
 This website has the features like Registration, Login, Shopping, Cart, etc.
 
