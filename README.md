@@ -1,4 +1,4 @@
-# Shop Around
+# MyECart
 
 MyECart is an E-Commerce website.
 Here User can buy the available Items in the nearby stores.
